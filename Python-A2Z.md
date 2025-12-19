@@ -2,7 +2,7 @@
       <img width="196" height="116" alt="image" src="https://github.com/user-attachments/assets/71aa88c1-8b59-4136-867b-e52004393206" />
 
 
-* Unit 1
+[* Unit 1
                     How to use Jupyter
 
 -----------------------------------------------------------------------------------------------------------------------------
@@ -162,7 +162,246 @@ ________________________________________________________________________________
                     13th - User Defined Functions | Part 3
 
 ______________________________________________________________________________________________________________________________
+* Unit 6 Assignment Explanation Video](https://jupyter.org/try-jupyter/lab/
+
+* Unit 1 
+                    How to use Jupyter
+
+-----------------------------------------------------------------------------------------------------------------------------
+                    1st - Introduction to Python
+
+-----------------------------------------------------------------------------------------------------------------------------
+                    2nd -Variables & operators | Part 1
+
+-----------------------------------------------------------------------------------------------------------------------------
+                    3rd -Variables & operators | Part 2
+
+______________________________________________________________________________________________________________________________
+*** Unit 2 Assignment Explanation Video**
+
+                    4th - Built-in Functions | Part 1
+
+2-Types of Python Functions:
+A. Built-in Function: (68- Pre-defined)
+
+1- Round : (its round off post decimal)
+      a= 4.33
+      round(a)
+        ==> 4
+
+      b= 4.66
+      round(b)
+        ==> 5
+
+      print(round(4.123456789, 5)    """6th Digit is 6 so 5th Digit will become 7"""
+      ==> 4.12357           
+
+      Math= 75.82
+      Phy= 82.91
+      Chem= 67.23
+      print(round(Maths+Phy+Chem))    """ total will be 225.96 """
+        ==> 5226
+
+
+2- Divmod:  (its related with Division, provide Quotient & Reminder)
+
+  a= divmod(27,5)     """ 27/5 --> Q=5 & R=2 """
+  print(a)
+      ==> (5,2)    """ 'a' is a  TUPPLE (its Variable with MULTIPLE Values) i.e. (.., .., ..,.. ,.. ,...) """
+  
+  type(a)
+      ==> tuple
+  print(a[0])
+      ==> 3
+  print(a[1])
+      ==> 4
+  
+  a= divmod(148.789, 12)
+  b= divmod(148.789, 13)
+  c= divmod(148.789, 14)
+  d= divmod(148.789, 15)
+  
+  Q= a[0] + b[0] + c[0] +d[0]
+  R= a[1] + b[1] + c[1] +d[1]
+  print("sum of qnts are" Q)
+  round(print("sum of reminders are" R))
+      ==> 42.2
+      ==> 33
+
+
+3- IsInstance Function:  isinstance (object, type)  
+  --> OBJECT always be Single unit agrument, but  
+  --> TYPE can be TUPPLE(stores multiple item in () )
+      """ It checks Outpult & always be True / False only """
+
+  isinstance (5, int)
+      ==> True
+  
+  isinstance (5.7, int)
+      ==> False
+  
+  isinstance (5.7, (int, float, complex))
+      ==> True         (because data type is float)
+   
+  print(isinstance("python is amazing", (int,float,str)))
+      ==> True           (because data type is string)
+  
+  isinstance(2+3j, (int,float,complex))
+      ==> True           (because data type is complex)
+  
+  isinstance(3.79, (int,complex))
+      ==> False           (because FLOAT data type is missing)
+  
+  isinstance(3.71, (float,int,complex))
+      ==> True           (because data type is float)
+
+4- Pow Function:  pow(x,y)   OR   pow(x,y,z)
+ 
+pow(3,4)
+    ==> 81
+
+pow(2,5,7)      """ 2*2*2*2*2/7 and reminder will return 4 """
+    ==> 4
+
+pow(3,4,6)     """ 81/6 = 78, reminder is 3
+    ==> 3
+
+pow(3.2, 4)    
+    ==> 104.8576.......
+
+pow(2+3j, 2)    """ pow will work for complex num as well """
+    ==> -5+12j
+
+a= pow(24,2,7)
+b= pow(24,3,7)
+c= pow(24,4,7)
+d= pow(24,5,7)
+print(a,b,c,d)
+    ==> 2 6 4 5
+
+print("reminder of a is" a=pow(24,2,7))
+print("reminder of b is" a=pow(24,3,7))
+print("reminder of c is" a=pow(24,4,7))
+print("reminder of d is" a=pow(24,5,7))
+    ==> 2 6 4 5
+
+
+-----------------------------------------------------------------------------------------------------------------------------
+                    5th - Built-in Functions | Part 2
+
+
+5-  Input Function:  (User often have need to interact with user, to get data or provide some result. This take Input from user and converts it into String)
+                      (String will be By Default, if we need data INT or FLOAT then we have to convert into another Data Type)
+                      
+inp = input('STATEMENT')
+
+    x = input("Enter the value")
+        ==> Enter the value [ 45 ]
+    print(x)
+        ==> 45
+    print(type(x))
+        ==> <class 'str'>      (so here 45 is String, not the Intiger, so we can not do any Matematical operation with 45)
+    x = int(x)    similary we can convert to FLOAT--  x = float(x)
+    print(x)
+    print(type(x))
+        ==> 45
+        ==> <class 'int'>
+    print(x-21)
+        ==> 24   (now we can do Math operation because X now converted to INT)
+
+    a= input("Math Mark ")
+    b= input("Phy Mark ")
+    c= input("Chem Mark ")
+    
+
+6- LEN Function:     (its returns the number of Items in an Object, if Object=String then len() function returns the Number of Characters in the string, list(data structure / set) etc, 
+                      but this can NOT(int, float etc) use all data types.)
+
+
+
+7- SORTED Function:
+
+______________________________________________________________________________________________________________________________
+Unit 3 Assignment Explanation Video
+
+-----------------------------------------------------------------------------------------------------------------------------
+                    6th - Conditional Statements | Part 1
+
+-----------------------------------------------------------------------------------------------------------------------------
+                    7th - Conditional Statements | Part 2
+
+______________________________________________________________________________________________________________________________
+* Unit 4 Assignment Explanation Video
+
+-----------------------------------------------------------------------------------------------------------------------------
+                    8th - Concepts of Loops | Part 1
+
+-----------------------------------------------------------------------------------------------------------------------------
+                    9th - Concepts of Loops | Part 2
+
+-----------------------------------------------------------------------------------------------------------------------------
+                    10th - Concepts of Loops | Part 3
+
+______________________________________________________________________________________________________________________________
+                    Unit 5 Assignment Explanation Video
+
+-----------------------------------------------------------------------------------------------------------------------------
+* 11th - User Defined Functions | Part 1
+
+-----------------------------------------------------------------------------------------------------------------------------
+                    12th - User Defined Functions | Part 2
+
+-----------------------------------------------------------------------------------------------------------------------------
+                    13th - User Defined Functions | Part 3
+
+______________________________________________________________________________________________________________________________
 * Unit 6 Assignment Explanation Video
+
+
+
+                    14th - Strings in Python | Part 1
+
+-----------------------------------------------------------------------------------------------------------------------------
+                    15th - Strings in Python | Part 2
+-----------------------------------------------------------------------------------------------------------------------------
+                    16th - Strings in Python | Part 3
+-----------------------------------------------------------------------------------------------------------------------------
+                    17th - Strings in Python | Part 4
+______________________________________________________________________________________________________________________________
+
+* Unit 7 Assignment Explanation Video
+                    18th - List in Python | Part 1
+-----------------------------------------------------------------------------------------------------------------------------
+                    19th - List in Python | Part 2
+-----------------------------------------------------------------------------------------------------------------------------
+                    20th - List in Python | Part 3
+
+______________________________________________________________________________________________________________________________
+
+* Unit 8 Assignment Explanation Video
+                    21st - Tuples in Python | Part 1
+-----------------------------------------------------------------------------------------------------------------------------
+                    22nd - Tuples in Python | Part 2
+______________________________________________________________________________________________________________________________
+* Unit 9 Assignment Explanation Video
+                    23rd - Set in Python | Part 1
+-----------------------------------------------------------------------------------------------------------------------------
+                    24th - Set in Python | Part 2
+-----------------------------------------------------------------------------------------------------------------------------
+                    25th - Set in Python | Part 3
+______________________________________________________________________________________________________________________________
+* Unit 10 Assignment Explanation Video
+                    26th - Dictionary in Python | Part 1
+-----------------------------------------------------------------------------------------------------------------------------
+                    27th - Dictionary in Python | Part 2
+______________________________________________________________________________________________________________________________
+*Unit 11 Assignment Explanation Video
+
+
+
+
+
+
 
 
 **This is bold text**
@@ -177,4 +416,4 @@ This is a <sub>subscript</sub> text
 
 This is a <sup>superscript</sup> text
 
-This is an <ins>underlined</ins> text
+This is an <ins>underlined</ins> text)
