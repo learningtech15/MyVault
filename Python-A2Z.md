@@ -1,8 +1,8 @@
 <img width="257" height="115" alt="image" src="https://github.com/user-attachments/assets/452529f9-5bc3-417e-be11-1ef56d2886b4" />
 
-     
+https://jupyter.org/try-jupyter/lab/     
 
-[
+
 * Unit 1
                     How to use Jupyter
 
@@ -631,3 +631,4 @@ This is a <sub>subscript</sub> text
 This is a <sup>superscript</sup> text
 
 This is an <ins>underlined</ins> text)
+
