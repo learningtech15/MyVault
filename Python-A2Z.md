@@ -1,8 +1,8 @@
-**OM**
+
       <img width="196" height="116" alt="image" src="https://github.com/user-attachments/assets/71aa88c1-8b59-4136-867b-e52004393206" />
 
 
-[* Unit 1
+* Unit 1
                     How to use Jupyter
 
 -----------------------------------------------------------------------------------------------------------------------------
@@ -417,3 +417,4 @@ This is a <sub>subscript</sub> text
 This is a <sup>superscript</sup> text
 
 This is an <ins>underlined</ins> text)
+
